@@ -15,6 +15,7 @@ public class SongManager : MonoBehaviour
     public Lane[] lanes;
     public float songDelayInSeconds;
     [SerializeField] public double marginOfError; // in seconds
+    [SerializeField] PlayerMovement player; 
 
     public int inputDelayInMilliseconds;
 
@@ -23,6 +24,7 @@ public class SongManager : MonoBehaviour
     public float noteTime;
     public float noteSpawnX;
     public float noteTapX;
+    public bool startPlaying;
     public float noteDespawnX
     {
         get
@@ -36,13 +38,6 @@ public class SongManager : MonoBehaviour
     void Start()
     {
         Instance = this;
-        if (Application.streamingAssetsPath.StartsWith("http://") || Application.streamingAssetsPath.StartsWith("https://"))
-        {
-        }
-        else
-        {
-            ReadFromFile();
-        }
     }
 
     private void ReadFromFile()
@@ -63,6 +58,7 @@ public class SongManager : MonoBehaviour
     public void StartSong()
     {
         audioSource.Play();
+        player.goLeft();
     }
     public static double GetAudioSourceTime()
     {
@@ -71,6 +67,13 @@ public class SongManager : MonoBehaviour
 
     void Update()
     {
-
+        if(!startPlaying)
+        {
+            if (Input.anyKeyDown)
+            {
+                startPlaying = true;
+                ReadFromFile();
+            }
+        }
     }
 }

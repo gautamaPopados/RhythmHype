@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ParallaxController : MonoBehaviour
 {
-    Transform cam;
+    [SerializeField] Transform cam;
     Vector3 camStartPos;
     float distance;
 

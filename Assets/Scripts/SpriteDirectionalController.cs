@@ -9,6 +9,7 @@ public class NewBehaviourScript : MonoBehaviour
     [SerializeField] Transform mainTransform;
     [SerializeField] Animator animator;
     [SerializeField] SpriteRenderer spriteRenderer;
+    [SerializeField] PlayerMovement player;
 
     void LateUpdate()
     {
@@ -19,7 +20,7 @@ public class NewBehaviourScript : MonoBehaviour
         Vector2 animationDirection = new Vector2(0f, -1f);
 
         float angle = Mathf.Abs(signedAngle);
-
+        spriteRenderer.flipX = true;
         
 
         if (angle < backAngle)
@@ -31,11 +32,11 @@ public class NewBehaviourScript : MonoBehaviour
             animationDirection = new Vector2(1f, 0f);
             if (signedAngle < 0)
             {
-                spriteRenderer.flipX = false;
+                spriteRenderer.flipX = true;
             }
             else
             {
-                spriteRenderer.flipX = true;
+                spriteRenderer.flipX = false;
 
             }
         }
@@ -44,7 +45,7 @@ public class NewBehaviourScript : MonoBehaviour
             animationDirection = new Vector2 (0f, 1f);
         }
 
-        if (Input.GetButton("Horizontal") || Input.GetButton("Vertical"))
+        if (player.isRunning)
             animator.SetBool("run", true);
         else
             animator.SetBool("run", false);

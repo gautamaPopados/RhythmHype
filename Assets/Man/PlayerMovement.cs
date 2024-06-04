@@ -8,17 +8,22 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float MoveSpeed = 10;
     [SerializeField] float Jump = 5;
     [SerializeField] Transform cam;
+    [SerializeField] float horizontalAxis = 0;
+    [SerializeField] float verticalAxis = 0;
+    [SerializeField] public bool isRunning = false;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
     }
 
+    public void goLeft() { horizontalAxis = -1; isRunning = true; }
+
     void Update()
     {
         //управление
-        float horizontalInput = Input.GetAxisRaw("Horizontal") * MoveSpeed;
-        float VerticalInput = Input.GetAxisRaw("Vertical") * MoveSpeed;
+        float horizontalInput = horizontalAxis * MoveSpeed;
+        float VerticalInput = verticalAxis * MoveSpeed;
 
         //направление камеры
         Vector3 cameraForward = cam.forward;
@@ -35,11 +40,12 @@ public class PlayerMovement : MonoBehaviour
 
         //движение
 
-        rb.velocity = new Vector3(moveDirection.x, rb.velocity.y, moveDirection.z);
+        if (isRunning)
+            rb.velocity = new Vector3(moveDirection.x, rb.velocity.y, moveDirection.z);
 
-        if (Input.GetButtonDown("Jump") && Mathf.Approximately(rb.velocity.y, 0)) rb.velocity = new Vector3(rb.velocity.x, Jump, rb.velocity.z);
+        //if (Input.GetButtonDown("Jump") && Mathf.Approximately(rb.velocity.y, 0)) rb.velocity = new Vector3(rb.velocity.x, Jump, rb.velocity.z);
 
-        if (Input.GetButton("Horizontal") || Input.GetButton("Vertical"))
+        if (isRunning)
             transform.forward = new Vector3(rb.velocity.x, 0, rb.velocity.z);
     }
 }
