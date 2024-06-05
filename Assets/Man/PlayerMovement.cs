@@ -6,11 +6,10 @@ public class PlayerMovement : MonoBehaviour
 {
     Rigidbody rb;
     [SerializeField] float MoveSpeed = 10;
-    [SerializeField] float Jump = 5;
     [SerializeField] Transform cam;
-    [SerializeField] float horizontalAxis = 0;
-    [SerializeField] float verticalAxis = 0;
-    [SerializeField] public bool isRunning = false;
+    float horizontalAxis = 0;
+    float verticalAxis = 0;
+    public bool isRunning = false;
 
     void Start()
     {
