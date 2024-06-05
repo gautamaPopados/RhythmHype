@@ -1,4 +1,0 @@
-repository "RhythmGameBlin@CringeIncorporated@cloud"
-  path "/"
-    br "/main"
-    co "/main"
