@@ -64,9 +64,16 @@ public class Lane : MonoBehaviour
             if (Input.GetKeyDown(input))
             {
                 aim.GetComponent<Animator>().SetTrigger("pressed");
+
                 if (Math.Abs(audioTime - timeStamp) < marginOfError)
                 {
-                    Hit();
+
+                    if (Math.Abs(audioTime - timeStamp) < 0.04)
+                        ScoreManager.GoodHit();
+                    else if (Math.Abs(audioTime - timeStamp) < 0.07)
+                        ScoreManager.PerfectHit();
+                    else ScoreManager.NormalHit();
+
                     notes[inputIndex].gameObject.GetComponent<Animator>().SetTrigger("destruct");
                     print($"Hit on {inputIndex} note");
                     delay(0.3f, inputIndex);
@@ -86,10 +93,7 @@ public class Lane : MonoBehaviour
         }
 
     }
-    private void Hit()
-    {
-        ScoreManager.Hit();
-    }
+
     private void Miss()
     {
         ScoreManager.Miss();

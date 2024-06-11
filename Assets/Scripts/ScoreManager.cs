@@ -8,24 +8,62 @@ public class ScoreManager : MonoBehaviour
     public AudioSource hitSFX;
     public AudioSource missSFX;
     public TMPro.TextMeshPro scoreText;
-    static int comboScore;
+    public TMPro.TextMeshPro multiplierText;
+    static int currentScore;
+    static int scorePerNote = 100;
+    static int scorePerGoodNote = 120;
+    static int scorePerPerfectNote = 150;
+
+    static int currentMultiplier;
+    static int multiplierTracker;
+    static int[] multiplierThresholds = { 4, 8, 16 };
     void Start()
     {
         Instance = this;
-        comboScore = 0;
+        currentScore = 0;
+        currentMultiplier = 1;
+        multiplierTracker = 0;
     }
     public static void Hit()
     {
-        comboScore += 1;
+        if (currentMultiplier - 1 < multiplierThresholds.Length)
+        { 
+            multiplierTracker++;
+
+            if (multiplierThresholds[currentMultiplier - 1] <= multiplierTracker)
+            {
+                multiplierTracker = 0;
+                currentMultiplier++;
+            }
+        }
         Instance.hitSFX.Play();
     }
+
+    public static void NormalHit()
+    {
+        currentScore += scorePerNote * currentMultiplier;
+        Hit();
+    }
+    public static void GoodHit()
+    {
+        currentScore += scorePerGoodNote * currentMultiplier;
+        Hit();
+    }
+    public static void PerfectHit()
+    {
+        currentScore += scorePerPerfectNote * currentMultiplier;
+        Hit();
+    }
+
     public static void Miss()
     {
-        comboScore = 0;
+        currentMultiplier = 1;
+        multiplierTracker = 0;
         Instance.missSFX.Play();
     }
     private void Update()
     {
-        scoreText.text = comboScore.ToString();
+        scoreText.text = currentScore.ToString();
+        multiplierText.text = "x" + currentMultiplier.ToString();
     }
 }
