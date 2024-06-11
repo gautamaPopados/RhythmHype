@@ -11,6 +11,12 @@ public class Note : MonoBehaviour
         timeInstantiated = SongManager.GetAudioSourceTime();
     }
 
+    private IEnumerator delay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        Destroy(gameObject);
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -19,7 +25,8 @@ public class Note : MonoBehaviour
 
         if (t > 0.6)
         {
-            Destroy(gameObject);
+            gameObject.GetComponent<Animator>().SetTrigger("destruct");
+            StartCoroutine(delay(0.3f));
         }
         else
         {

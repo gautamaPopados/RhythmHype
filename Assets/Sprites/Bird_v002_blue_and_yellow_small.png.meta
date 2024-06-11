@@ -1,0 +1,1535 @@
+fileFormatVersion: 2
+guid: bf775d44e37f76542b98dc8d03508da0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 10
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a52da0ef0ee3374694d5a05352ff30e
+      internalID: 115381927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 168
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1c1aa5f8932514a929d0fa9154da65
+      internalID: 341169618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 168
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614b8f4813431324d97c4ede7af313eb
+      internalID: 892545985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 168
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d093824d759ce408a2c529ab274164
+      internalID: 640109500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 168
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34914e9394c8b914d97f050bdf32fa9e
+      internalID: 1000908210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 168
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a55c3ea1435334f8b7ecf543f87e84
+      internalID: -203538367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 168
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10107be071122b743ae68f31b389aa10
+      internalID: 405993990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 168
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a8a95045b9ed344afc3d68a96c4979
+      internalID: 426444701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 168
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055fc9f03fc3d7e4d9fe03a5713cb9bd
+      internalID: 861150149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 147
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c6fb448ff192644b702af23ba0fdb4
+      internalID: -140344542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 147
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db709c7ca42ca6b49a6103026a480b8c
+      internalID: 37916192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 147
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8af65ebe3d6eb43bea770d703ebda6
+      internalID: 1879445629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 147
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371dfc1b8c57f444fbe6e1b8a7a17d0e
+      internalID: 1709410374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 147
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137e6b674ebe29f40a43995b0ecb43cd
+      internalID: -1188772031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_14
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 147
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192afbe9f4e9679499b76c2c550b6922
+      internalID: 1893970306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 147
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3842f633e975b945ab0bcb4434e9e6a
+      internalID: -84016724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_16
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 147
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4768b717b6c84c9428f6ca76207c9368
+      internalID: 385023695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 147
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60eaebe5afb20354cb92eb388bdd8c3e
+      internalID: 1965344768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 147
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db69479fef987194c8837aa5c0e893f5
+      internalID: -1803590201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9036be7e518d5ec4588ed9b82c90ecb3
+      internalID: -1944436765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_20
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 126
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4f7c08ea8aba548b98212512de553c
+      internalID: 1562324709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 126
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2dcccd6a398b144c82bc70454734cc9
+      internalID: -302977702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 126
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d784466135a4a347bbe3f78ef3d57e4
+      internalID: -1531579024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 105
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53123ebe0baa6d438252683e8b806f6
+      internalID: 716099179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_24
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 105
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91cfc63f6a15294f9ee642cf951d080
+      internalID: -942256238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 105
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1f5132c8de1af4da35f287284ffcb0
+      internalID: 1895023583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_26
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 105
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d3a31a78b336e40b0bd8982c5b477d
+      internalID: -865582064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_27
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 105
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c36886d870ffd447bd973c15dd7e9de
+      internalID: -1420027373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_28
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 105
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9ac38d08a9fe541a9e8c1d6a925c4b
+      internalID: -1699667284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_29
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 105
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b4bf9389b51ce4ca0ac4df7840b09c
+      internalID: -1248008268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_30
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 105
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7cd233fb790c3458478bc36c2b5de3
+      internalID: -1890434878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192daf9fcc84bd949a1b528041f912d4
+      internalID: 1441522800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_32
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 84
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda1c232fdda9c54aaa84f7d849fa6a8
+      internalID: -924022639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_33
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 84
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ceff0e38ffd84946b796c790e650f05
+      internalID: -1345260344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_34
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 84
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c372a012feb806540ae7a144396afdbd
+      internalID: -258838168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_35
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 84
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da3873e70d472a4db981ea5c3759397
+      internalID: 361664330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce4e8f08548b1f45890359893077aed
+      internalID: -928474897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_37
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 63
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef18f36a65bafe64480eef94aa74e954
+      internalID: -1771589810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_38
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 63
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2db990a1bea25a408fa2cf758a1ac72
+      internalID: -1486560309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_39
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 63
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10767bfc0ed5714188b4a30ba2d49ce
+      internalID: 330412940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 63
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b894b588c6e2d846be43dfa5e67b14c
+      internalID: 1687325124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_41
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 63
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fdf90f8998949d4c9b37a0076fd7ab1
+      internalID: 2023559752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_42
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 63
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467217d6c50a54f4b8d3e0a53af2bb4a
+      internalID: -553801244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_43
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 63
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f2f8b397ec30448a3bb36f65bd7922
+      internalID: -1627795046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 42
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167e560cfbed3ec49b38c747f2bfcbae
+      internalID: 522049368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_45
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 42
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e1204034f52104a85e981f9c9e9e33
+      internalID: 82617622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_46
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 42
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b820eedcba88f45813bdf8e1bbc4f1
+      internalID: 645547980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_47
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 42
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ff296252741d144ab5b9417954972f
+      internalID: 1723573347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_48
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 42
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1e28dda77f01b4dbe7063a90cb14a0
+      internalID: 2058612099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_49
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 42
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97757adbcf43fa040958161fb734792c
+      internalID: 577070954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_50
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 42
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6f2b7b6e048b9429ffc33454fd72ac
+      internalID: 4295284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_51
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 42
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8fbf613aad961c44b1e5ebf039c2006
+      internalID: 1402865479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_52
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 42
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af71ad9a9903f704d8a9708bf3a9b322
+      internalID: 1286063237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 21
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0cb09526aa87b46b3271a33cb2cb6e
+      internalID: 1112995870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_54
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 21
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc16580957be5474393706669fa303a1
+      internalID: 936679178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_55
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 21
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cbd0b71366549140806cac3a08e2dca
+      internalID: 1006778930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_56
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 21
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b81713b28f852d4b98d3a273c8960fd
+      internalID: 1529804982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2514984f93392c94089b791b6f07526a
+      internalID: 367379709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_58
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af21a6d935a417c4ea84fcb5dfa18abb
+      internalID: 145416218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_59
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736b4787467ee1f408ddda9b991f26d0
+      internalID: 523872030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_60
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e63bb569127d6d49ab3f55127626051
+      internalID: 1799310159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_61
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5c5f5f94d8f484daad150590f17f04
+      internalID: -484938357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_62
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d371cc0a042f0314e85d0c29d77e0b58
+      internalID: -629586830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird_v002_blue_and_yellow_small_63
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccba981878b408044ad6e0fd1cd661cc
+      internalID: -1875768130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Bird_v002_blue_and_yellow_small_0: 115381927
+      Bird_v002_blue_and_yellow_small_1: 341169618
+      Bird_v002_blue_and_yellow_small_10: 37916192
+      Bird_v002_blue_and_yellow_small_11: 1879445629
+      Bird_v002_blue_and_yellow_small_12: 1709410374
+      Bird_v002_blue_and_yellow_small_13: -1188772031
+      Bird_v002_blue_and_yellow_small_14: 1893970306
+      Bird_v002_blue_and_yellow_small_15: -84016724
+      Bird_v002_blue_and_yellow_small_16: 385023695
+      Bird_v002_blue_and_yellow_small_17: 1965344768
+      Bird_v002_blue_and_yellow_small_18: -1803590201
+      Bird_v002_blue_and_yellow_small_19: -1944436765
+      Bird_v002_blue_and_yellow_small_2: 892545985
+      Bird_v002_blue_and_yellow_small_20: 1562324709
+      Bird_v002_blue_and_yellow_small_21: -302977702
+      Bird_v002_blue_and_yellow_small_22: -1531579024
+      Bird_v002_blue_and_yellow_small_23: 716099179
+      Bird_v002_blue_and_yellow_small_24: -942256238
+      Bird_v002_blue_and_yellow_small_25: 1895023583
+      Bird_v002_blue_and_yellow_small_26: -865582064
+      Bird_v002_blue_and_yellow_small_27: -1420027373
+      Bird_v002_blue_and_yellow_small_28: -1699667284
+      Bird_v002_blue_and_yellow_small_29: -1248008268
+      Bird_v002_blue_and_yellow_small_3: 640109500
+      Bird_v002_blue_and_yellow_small_30: -1890434878
+      Bird_v002_blue_and_yellow_small_31: 1441522800
+      Bird_v002_blue_and_yellow_small_32: -924022639
+      Bird_v002_blue_and_yellow_small_33: -1345260344
+      Bird_v002_blue_and_yellow_small_34: -258838168
+      Bird_v002_blue_and_yellow_small_35: 361664330
+      Bird_v002_blue_and_yellow_small_36: -928474897
+      Bird_v002_blue_and_yellow_small_37: -1771589810
+      Bird_v002_blue_and_yellow_small_38: -1486560309
+      Bird_v002_blue_and_yellow_small_39: 330412940
+      Bird_v002_blue_and_yellow_small_4: 1000908210
+      Bird_v002_blue_and_yellow_small_40: 1687325124
+      Bird_v002_blue_and_yellow_small_41: 2023559752
+      Bird_v002_blue_and_yellow_small_42: -553801244
+      Bird_v002_blue_and_yellow_small_43: -1627795046
+      Bird_v002_blue_and_yellow_small_44: 522049368
+      Bird_v002_blue_and_yellow_small_45: 82617622
+      Bird_v002_blue_and_yellow_small_46: 645547980
+      Bird_v002_blue_and_yellow_small_47: 1723573347
+      Bird_v002_blue_and_yellow_small_48: 2058612099
+      Bird_v002_blue_and_yellow_small_49: 577070954
+      Bird_v002_blue_and_yellow_small_5: -203538367
+      Bird_v002_blue_and_yellow_small_50: 4295284
+      Bird_v002_blue_and_yellow_small_51: 1402865479
+      Bird_v002_blue_and_yellow_small_52: 1286063237
+      Bird_v002_blue_and_yellow_small_53: 1112995870
+      Bird_v002_blue_and_yellow_small_54: 936679178
+      Bird_v002_blue_and_yellow_small_55: 1006778930
+      Bird_v002_blue_and_yellow_small_56: 1529804982
+      Bird_v002_blue_and_yellow_small_57: 367379709
+      Bird_v002_blue_and_yellow_small_58: 145416218
+      Bird_v002_blue_and_yellow_small_59: 523872030
+      Bird_v002_blue_and_yellow_small_6: 405993990
+      Bird_v002_blue_and_yellow_small_60: 1799310159
+      Bird_v002_blue_and_yellow_small_61: -484938357
+      Bird_v002_blue_and_yellow_small_62: -629586830
+      Bird_v002_blue_and_yellow_small_63: -1875768130
+      Bird_v002_blue_and_yellow_small_7: 426444701
+      Bird_v002_blue_and_yellow_small_8: 861150149
+      Bird_v002_blue_and_yellow_small_9: -140344542
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

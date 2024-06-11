@@ -5,16 +5,25 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
+
 public class Lane : MonoBehaviour
 {
     public Melanchall.DryWetMidi.MusicTheory.NoteName noteRestriction;
     public KeyCode input;
     public GameObject notePrefab;
+    public GameObject aim;
     List<Note> notes = new List<Note>();
     public List<double> timeStamps = new List<double>();
 
     int spawnIndex = 0;
     int inputIndex = 0;
+
+    private IEnumerator delay(float delay, int inputIndex)
+    {
+        yield return new WaitForSeconds(delay);
+        Destroy(notes[inputIndex].gameObject);
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -54,11 +63,13 @@ public class Lane : MonoBehaviour
 
             if (Input.GetKeyDown(input))
             {
+                aim.GetComponent<Animator>().SetTrigger("pressed");
                 if (Math.Abs(audioTime - timeStamp) < marginOfError)
                 {
                     Hit();
+                    notes[inputIndex].gameObject.GetComponent<Animator>().SetTrigger("destruct");
                     print($"Hit on {inputIndex} note");
-                    Destroy(notes[inputIndex].gameObject);
+                    delay(0.3f, inputIndex);
                     inputIndex++;
                 }
                 else
