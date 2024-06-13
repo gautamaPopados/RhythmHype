@@ -23,7 +23,7 @@ public class Note : MonoBehaviour
         double timeSinceInstantiated = SongManager.GetAudioSourceTime() - timeInstantiated;
         float t = (float)(timeSinceInstantiated / (SongManager.Instance.noteTime * 2));
 
-        if (t > 0.6)
+        if (t > 5)
         {
             gameObject.GetComponent<Animator>().SetTrigger("destruct");
             StartCoroutine(delay(0.3f));

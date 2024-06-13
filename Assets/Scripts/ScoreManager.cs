@@ -9,7 +9,7 @@ public class ScoreManager : MonoBehaviour
     public AudioSource missSFX;
     public TMPro.TextMeshPro scoreText;
     public TMPro.TextMeshPro multiplierText;
-    static int currentScore;
+    public static int currentScore { get; set; }
     static int scorePerNote = 100;
     static int scorePerGoodNote = 120;
     static int scorePerPerfectNote = 150;
@@ -17,6 +17,13 @@ public class ScoreManager : MonoBehaviour
     static int currentMultiplier;
     static int multiplierTracker;
     static int[] multiplierThresholds = { 4, 8, 16 };
+
+    public static int okHits { get; set; } = 0;
+    public static int goodHits { get; set; } = 0;
+    public static int perfectHits { get; set; } = 0;
+    public static int missedHits { get; set; } = 0;
+    public static int totalHits { get; set; } = 0;
+
     void Start()
     {
         Instance = this;
@@ -43,20 +50,24 @@ public class ScoreManager : MonoBehaviour
     {
         currentScore += scorePerNote * currentMultiplier;
         Hit();
+        okHits++;
     }
     public static void GoodHit()
     {
         currentScore += scorePerGoodNote * currentMultiplier;
         Hit();
+        goodHits++;
     }
     public static void PerfectHit()
     {
         currentScore += scorePerPerfectNote * currentMultiplier;
         Hit();
+        perfectHits++;
     }
 
     public static void Miss()
     {
+        missedHits++;
         currentMultiplier = 1;
         multiplierTracker = 0;
         Instance.missSFX.Play();
@@ -65,5 +76,6 @@ public class ScoreManager : MonoBehaviour
     {
         scoreText.text = currentScore.ToString();
         multiplierText.text = "x" + currentMultiplier.ToString();
+        totalHits = okHits + goodHits + perfectHits;
     }
 }

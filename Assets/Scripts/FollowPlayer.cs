@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class FollowPlayer : MonoBehaviour
 {
-    [SerializeField] Transform Player;
-    [SerializeField] public int xDiff;
+    [SerializeField] public Transform Player;
+    [SerializeField] public float xDiff;
 
     Vector3 localRotation;
     void Start()

@@ -7,6 +7,7 @@ using System.IO;
 using UnityEngine.Networking;
 using System;
 using System.Numerics;
+using TMPro;
 
 public class SongManager : MonoBehaviour
 {
@@ -25,6 +26,11 @@ public class SongManager : MonoBehaviour
     public float noteSpawnX;
     public float noteTapX;
     public bool startPlaying;
+
+    public float totalNotes;
+
+    public GameObject resultsScreen;
+    public TextMeshProUGUI oksText, goodsText, perfectsText, missesText, rankText, finalScoreText, percantageText;
     public float noteDespawnX
     {
         get
@@ -48,6 +54,7 @@ public class SongManager : MonoBehaviour
     public void GetDataFromMidi()
     {
         var notes = midiFile.GetNotes();
+        totalNotes = notes.Count;
         var array = new Melanchall.DryWetMidi.Interaction.Note[notes.Count];
         notes.CopyTo(array, 0);
 
@@ -73,6 +80,45 @@ public class SongManager : MonoBehaviour
             {
                 startPlaying = true;
                 ReadFromFile();
+            }
+        }
+        else
+        {
+            if(!audioSource.isPlaying && !resultsScreen.activeInHierarchy)
+            {
+                resultsScreen.SetActive(true);
+
+                oksText.text = ScoreManager.okHits.ToString();
+                goodsText.text = ScoreManager.goodHits.ToString();
+                perfectsText.text = ScoreManager.perfectHits.ToString();
+                missesText.text = ScoreManager.missedHits.ToString();
+                finalScoreText.text = ScoreManager.currentScore.ToString();
+                float percantage = (ScoreManager.totalHits / totalNotes) * 100f;
+
+                string rankVakue = "F";
+
+                if (percantage > 40f)
+                {
+                    rankVakue = "D";
+                    if (percantage > 55f)
+                    {
+                        rankVakue = "C";
+                        if (percantage > 70f)
+                        {
+                            rankVakue = "B";
+                            if (percantage > 85f)
+                            {
+                                rankVakue = "A";
+                                if (percantage > 95f)
+                                {
+                                    rankVakue = "S";
+                                }
+                            }
+                        }
+                    }
+                }
+                percantageText.text = percantage.ToString("F1") + "%";
+                rankText.text = rankVakue;
             }
         }
     }

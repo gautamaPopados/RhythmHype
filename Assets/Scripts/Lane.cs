@@ -11,8 +11,7 @@ public class Lane : MonoBehaviour
 {
     public Melanchall.DryWetMidi.MusicTheory.NoteName noteRestriction;
     public KeyCode input;
-    public GameObject notePrefab;
-    public GameObject aim;
+    public GameObject notePrefab, aim, okEffect, goodEffect, perfectEffect, missEffect;
     List<Note> notes = new List<Note>();
     public List<double> timeStamps = new List<double>();
 
@@ -69,14 +68,29 @@ public class Lane : MonoBehaviour
                 {
 
                     if (Math.Abs(audioTime - timeStamp) < 0.04)
+                    {
                         ScoreManager.GoodHit();
+                        GameObject effect = Instantiate(goodEffect, new Vector3(transform.position.x, transform.position.y + 0.3f, transform.position.z - 1), goodEffect.transform.rotation);
+                        effect.GetComponent<FollowPlayer>().Player = transform;
+                        effect.GetComponent<Animator>().SetTrigger("destruct");
+                    }
                     else if (Math.Abs(audioTime - timeStamp) < 0.07)
+                    {
                         ScoreManager.PerfectHit();
-                    else ScoreManager.NormalHit();
-
-                    notes[inputIndex].gameObject.GetComponent<Animator>().SetTrigger("destruct");
+                        GameObject effect = Instantiate(perfectEffect, new Vector3(transform.position.x, transform.position.y + 0.3f, transform.position.z - 1), goodEffect.transform.rotation);
+                        effect.GetComponent<FollowPlayer>().Player = transform;
+                        effect.GetComponent<Animator>().SetTrigger("destruct");
+                    }
+                    else
+                    {
+                        ScoreManager.NormalHit();
+                        GameObject effect = Instantiate(okEffect, new Vector3(transform.position.x, transform.position.y + 0.3f, transform.position.z - 1), goodEffect.transform.rotation);
+                        effect.GetComponent<FollowPlayer>().Player = transform;
+                        effect.GetComponent<Animator>().SetTrigger("destruct");
+                    }
+                    //notes[inputIndex].gameObject.GetComponent<Animator>().SetTrigger("destruct");
                     print($"Hit on {inputIndex} note");
-                    delay(0.3f, inputIndex);
+                    //delay(0.3f, inputIndex);
                     inputIndex++;
                 }
                 else
@@ -87,6 +101,9 @@ public class Lane : MonoBehaviour
             if (timeStamp + marginOfError <= audioTime)
             {
                 Miss();
+                GameObject effect = Instantiate(missEffect, new Vector3(transform.position.x, transform.position.y + 0.3f, transform.position.z - 1), goodEffect.transform.rotation);
+                effect.GetComponent<FollowPlayer>().Player = transform;
+                effect.GetComponent<Animator>().SetTrigger("destruct");
                 print($"Missed {inputIndex} note");
                 inputIndex++;
             }
