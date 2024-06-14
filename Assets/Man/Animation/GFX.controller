@@ -164,7 +164,7 @@ AnimatorController:
     m_Controller: {fileID: 9100000}
   - m_Name: photoDir
     m_Type: 1
-    m_DefaultFloat: 0
+    m_DefaultFloat: 0.5
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
@@ -289,7 +289,7 @@ BlendTree:
   m_Name: Blend Tree
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: a3117c912fbdaed4483c8ba962a9a478, type: 2}
+    m_Motion: {fileID: 7400000, guid: 94d6dee5d3d561b4db2c7c2b204eac0a, type: 2}
     m_Threshold: 0
     m_Position: {x: 0, y: -1}
     m_TimeScale: 1
@@ -297,7 +297,7 @@ BlendTree:
     m_DirectBlendParameter: Blend
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 9cc36ba518c05864db447674545b92cf, type: 2}
+    m_Motion: {fileID: 7400000, guid: 3a0dd318e6ed0e6429ba1a2475ffd939, type: 2}
     m_Threshold: 0.5
     m_Position: {x: 1, y: 0}
     m_TimeScale: 1
@@ -305,7 +305,7 @@ BlendTree:
     m_DirectBlendParameter: Blend
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 9cc36ba518c05864db447674545b92cf, type: 2}
+    m_Motion: {fileID: 7400000, guid: 782e931ea28d8a74b9cda5ac366053f3, type: 2}
     m_Threshold: 1
     m_Position: {x: -1, y: 0}
     m_TimeScale: 1
@@ -330,7 +330,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -7104744038016452755}
-    m_Position: {x: 260, y: 110, z: 0}
+    m_Position: {x: 180, y: 190, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -2541619896722013858}
     m_Position: {x: 240, y: 10, z: 0}
