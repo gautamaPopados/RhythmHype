@@ -20,7 +20,7 @@ public class NewBehaviourScript : MonoBehaviour
         Vector2 animationDirection = new Vector2(0f, -1f);
 
         float angle = Mathf.Abs(signedAngle);
-        spriteRenderer.flipX = true;
+        spriteRenderer.flipX = false;
         
 
         if (angle < backAngle)
@@ -32,11 +32,11 @@ public class NewBehaviourScript : MonoBehaviour
             animationDirection = new Vector2(1f, 0f);
             if (signedAngle < 0)
             {
-                spriteRenderer.flipX = true;
+                spriteRenderer.flipX = false;
             }
             else
             {
-                spriteRenderer.flipX = false;
+                spriteRenderer.flipX = true;
 
             }
         }
