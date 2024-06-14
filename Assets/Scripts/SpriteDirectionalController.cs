@@ -50,6 +50,23 @@ public class NewBehaviourScript : MonoBehaviour
         else
             animator.SetBool("run", false);
 
+        if(Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            animator.SetFloat("photoDir", 0);
+        }
+        if(Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            animator.SetFloat("photoDir", 0.5f);
+        }
+        if(Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            animator.SetFloat("photoDir", 1f);
+        }
+        if(Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            animator.SetFloat("photoDir", 1f);
+        }
+
         animator.SetFloat("moveX", animationDirection.x);
         animator.SetFloat("moveY", animationDirection.y);
     }
