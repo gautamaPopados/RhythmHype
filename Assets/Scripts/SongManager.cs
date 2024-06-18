@@ -46,6 +46,21 @@ public class SongManager : MonoBehaviour
         Instance = this;
     }
 
+    IEnumerator DelayedStart()
+    {
+        yield return new WaitForSeconds(0.5f);
+        startPlaying = true;
+        ReadFromFile();
+    }
+
+    public void StartSongManager()
+    {
+        if (!startPlaying)
+        {
+            StartCoroutine(DelayedStart());
+        }
+    }
+
     private void ReadFromFile()
     {
         midiFile = MidiFile.Read(Application.streamingAssetsPath + "/" + fileLocation);
@@ -74,15 +89,7 @@ public class SongManager : MonoBehaviour
 
     void Update()
     {
-        if(!startPlaying)
-        {
-            if (Input.anyKeyDown)
-            {
-                startPlaying = true;
-                ReadFromFile();
-            }
-        }
-        else
+        if(startPlaying)
         {
             if(!audioSource.isPlaying && !resultsScreen.activeInHierarchy)
             {

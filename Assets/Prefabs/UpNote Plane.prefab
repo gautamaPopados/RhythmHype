@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8113548723101351522}
   - component: {fileID: 3239692979450499207}
   m_Layer: 0
-  m_Name: UpNote
+  m_Name: UpNote Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -109,7 +109,7 @@ Animator:
   m_GameObject: {fileID: 1003326330560142241}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: dfb01eb9961755d4b9d1903620341817, type: 2}
+  m_Controller: {fileID: 9100000, guid: 4b7300ebdb349c647a0da4992438cdb0, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
