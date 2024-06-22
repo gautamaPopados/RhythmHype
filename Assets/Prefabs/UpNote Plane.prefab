@@ -47,6 +47,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   assignedTime: 0
+  shadowPrefab: {fileID: 3136012753037294418, guid: f5341097af9ddd44bba12a91c299891e, type: 3}
+  shadow: {fileID: 0}
 --- !u!212 &8113548723101351522
 SpriteRenderer:
   m_ObjectHideFlags: 0

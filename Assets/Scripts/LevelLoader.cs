@@ -9,6 +9,8 @@ public class LevelLoader : MonoBehaviour
 
     public float transitionTime = 1f;
 
+    
+
     // Update is called once per frame
     void Update()
     {
@@ -28,6 +30,16 @@ public class LevelLoader : MonoBehaviour
     public void LoadMainMenu()
     {
         StartCoroutine(LoadLevel(0));
+        
+    }
+    public void LoadHallLevel()
+    {
+        StartCoroutine(LoadLevel(1));
+        
+    }
+    public void LoadParkLevel()
+    {
+        StartCoroutine(LoadLevel(2));
         
     }
 

@@ -46,7 +46,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f97aa8ef727ecc44f99371f02abe007c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  yPos: 0.55
   assignedTime: 0
+  shadowPrefab: {fileID: 3136012753037294418, guid: f5341097af9ddd44bba12a91c299891e, type: 3}
 --- !u!212 &6234613937276507416
 SpriteRenderer:
   m_ObjectHideFlags: 0

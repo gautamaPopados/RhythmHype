@@ -14,6 +14,7 @@ public class Lane : MonoBehaviour
     public GameObject notePrefab, aim, okEffect, goodEffect, perfectEffect, missEffect;
     List<Note> notes = new List<Note>();
     public List<double> timeStamps = new List<double>();
+    public Animator flash;
 
     int spawnIndex = 0;
     int inputIndex = 0;
@@ -92,6 +93,7 @@ public class Lane : MonoBehaviour
                     print($"Hit on {inputIndex} note");
                     //delay(0.3f, inputIndex);
                     inputIndex++;
+                    flash.SetTrigger("flash");
                 }
                 else
                 {

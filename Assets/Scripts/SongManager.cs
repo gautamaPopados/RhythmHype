@@ -13,6 +13,7 @@ public class SongManager : MonoBehaviour
 {
     public static SongManager Instance;
     public AudioSource audioSource;
+    public string level;
     public Lane[] lanes;
     public float songDelayInSeconds;
     [SerializeField] public double marginOfError; // in seconds
@@ -126,6 +127,7 @@ public class SongManager : MonoBehaviour
                 }
                 percantageText.text = percantage.ToString("F1") + "%";
                 rankText.text = rankVakue;
+                PlayerPrefs.SetString("level" + level, rankVakue);
             }
         }
     }
