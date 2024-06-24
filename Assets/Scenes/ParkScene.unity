@@ -1737,7 +1737,7 @@ MonoBehaviour:
   marginOfError: 0.1
   player: {fileID: 1569788505}
   inputDelayInMilliseconds: 0
-  fileLocation: shish2.mid
+  fileLocation: thirdLevel3mid.mid
   noteTime: 2
   noteSpawnX: -8
   noteTapX: 0
@@ -1974,7 +1974,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748da66453c9079419a034e129da912f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 7
+  noteRestriction: 5
   input: 273
   notePrefab: {fileID: 1003326330560142241, guid: fe9d163ffdef9fb438978d402f7994a1, type: 3}
   aim: {fileID: 979258629}
@@ -2333,8 +2333,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 884882632}
   lines:
-  - bruh
-  - bruuuuh
+  - "\u0422\u0435\u043F\u0435\u0440\u044C \u043F\u043E\u0438\u0449\u0435\u043C, \u0447\u0442\u043E
+    \u043C\u043E\u0436\u043D\u043E \u0441\u043D\u044F\u0442\u044C \u0442\u0443\u0442."
   textSpeed: 0.1
   songManager: {fileID: 516752367}
 --- !u!114 &730082796
@@ -2674,7 +2674,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748da66453c9079419a034e129da912f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 9
+  noteRestriction: 11
   input: 274
   notePrefab: {fileID: 7120158929006552135, guid: 66db4972b7238b646a48cdf450157dad, type: 3}
   aim: {fileID: 1211826194}
@@ -2862,7 +2862,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ea1a71f12dcee9545888e2a39f5ec5c8, type: 3}
+  m_audioClip: {fileID: 8300000, guid: d05f3fb75bd3a644bba7620d4b7ce350, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.494
   m_Pitch: 1
@@ -3696,7 +3696,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748da66453c9079419a034e129da912f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 5
+  noteRestriction: 9
   input: 276
   notePrefab: {fileID: 7120158929006552135, guid: 27fe7ee95c4ffe843983e4a222dc9f1f, type: 3}
   aim: {fileID: 2001050091}
@@ -4867,8 +4867,8 @@ Transform:
   m_GameObject: {fileID: 1253249853}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7071068, z: 0.7071068, w: 0}
-  m_LocalPosition: {x: -4.240089, y: -6.12, z: 11.71}
-  m_LocalScale: {x: 4, y: 1, z: 1}
+  m_LocalPosition: {x: -4.240089, y: -6.86, z: 11.71}
+  m_LocalScale: {x: 4, y: 1, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1939313461}
@@ -7561,7 +7561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748da66453c9079419a034e129da912f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 11
+  noteRestriction: 7
   input: 275
   notePrefab: {fileID: 8722624676220467596, guid: ecdf8394f1b6b7141a6fbe7794d55c41, type: 3}
   aim: {fileID: 203334856}

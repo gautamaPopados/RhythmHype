@@ -1,8 +1,5 @@
 using System.Collections;
-using System.Collections.Generic;
-using UnityEditorInternal;
 using UnityEngine;
-using static UnityEngine.Rendering.VirtualTexturing.Debugging;
 
 public class Note : MonoBehaviour
 {
@@ -15,7 +12,7 @@ public class Note : MonoBehaviour
     {
         Instance = this;
         timeInstantiated = SongManager.GetAudioSourceTime();
-        Instantiate(shadowPrefab, new Vector3(transform.position.x, yPos, transform.position.z), Quaternion.identity, Instance.transform);
+        Instantiate(shadowPrefab, new Vector3(transform.position.x, transform.position.y + yPos, transform.position.z), Quaternion.identity, Instance.transform);
     }
 
     private IEnumerator delay(float delay)

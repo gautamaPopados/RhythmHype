@@ -30,9 +30,10 @@ public class InterfaceListener : RhythmListener
 
     public override void BPMEvent(RhythmEventData data)
     {
-        logo[0].transform.localScale = logoScale[0] * 1.05f;
-        logo[1].transform.localScale = logoScale[1] * 1.1f;
-        logo[2].transform.localScale = logoScale[2] * 1.01f;
+        for (int i = 0; i < logo.Length; i++)
+        {
+            logo[i].transform.localScale = logoScale[i] * 1.1f;
+        }
     }
 
     public override void RhythmEvent(RhythmEventData data)

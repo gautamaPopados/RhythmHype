@@ -19,7 +19,10 @@ public class LevelLoader : MonoBehaviour
 
     public void LoadNextLevel()
     {
-        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
+        if (SceneManager.GetActiveScene().buildIndex < SceneManager.sceneCountInBuildSettings - 1)
+            StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
+        else
+            LoadMainMenu();
         
     }
     public void ReloadLevel()
@@ -34,12 +37,17 @@ public class LevelLoader : MonoBehaviour
     }
     public void LoadHallLevel()
     {
-        StartCoroutine(LoadLevel(1));
+        StartCoroutine(LoadLevel(2));
+        
+    }
+    public void LoadCityLevel()
+    {
+        StartCoroutine(LoadLevel(3));
         
     }
     public void LoadParkLevel()
     {
-        StartCoroutine(LoadLevel(2));
+        StartCoroutine(LoadLevel(4));
         
     }
 
