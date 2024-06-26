@@ -50,6 +50,11 @@ public class LevelLoader : MonoBehaviour
         StartCoroutine(LoadLevel(4));
         
     }
+    public void LoadBonusLevel()
+    {
+        StartCoroutine(LoadLevel(5));
+        
+    }
 
     IEnumerator LoadLevel(int levelIndex)
     {

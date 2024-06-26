@@ -16,6 +16,10 @@ PrefabInstance:
       propertyPath: yPos
       value: -0.2
       objectReference: {fileID: 0}
+    - target: {fileID: 1718194761590383286, guid: 578d40d5d5f95c844918e51499c6415e, type: 3}
+      propertyPath: yPosDot
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 2557713235957481950, guid: 578d40d5d5f95c844918e51499c6415e, type: 3}
       propertyPath: m_Name
       value: DownNote Man Two Variant

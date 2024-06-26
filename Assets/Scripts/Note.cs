@@ -6,13 +6,16 @@ public class Note : MonoBehaviour
     Note Instance;
     double timeInstantiated;
     public float yPos;
+    public float yPosDot;
     public float assignedTime;
     public GameObject shadowPrefab;
+    public GameObject dotPrefab;
     void Start()
     {
         Instance = this;
         timeInstantiated = SongManager.GetAudioSourceTime();
         Instantiate(shadowPrefab, new Vector3(transform.position.x, transform.position.y + yPos, transform.position.z), Quaternion.identity, Instance.transform);
+        Instantiate(dotPrefab, new Vector3(transform.position.x, transform.position.y + yPosDot, transform.position.z), Quaternion.identity, Instance.transform);
     }
 
     private IEnumerator delay(float delay)

@@ -49,6 +49,7 @@ MonoBehaviour:
   yPos: -0.5
   assignedTime: 0
   shadowPrefab: {fileID: 3136012753037294418, guid: f5341097af9ddd44bba12a91c299891e, type: 3}
+  dotPrefab: {fileID: 3680846107558487587, guid: 44b3c8ac3b1d4d4418d1112bc4a431b1, type: 3}
 --- !u!212 &6234613937276507416
 SpriteRenderer:
   m_ObjectHideFlags: 0

@@ -2,6 +2,7 @@ using Melanchall.DryWetMidi.Interaction;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -22,7 +23,7 @@ public class Lane : MonoBehaviour
     private IEnumerator delay(float delay, int inputIndex)
     {
         yield return new WaitForSeconds(delay);
-        Destroy(notes[inputIndex].gameObject);
+        Destroy(notes[inputIndex].transform.GetChild(1).gameObject);
     }
 
     // Start is called before the first frame update
@@ -89,9 +90,9 @@ public class Lane : MonoBehaviour
                         effect.GetComponent<FollowPlayer>().Player = transform;
                         effect.GetComponent<Animator>().SetTrigger("destruct");
                     }
-                    //notes[inputIndex].gameObject.GetComponent<Animator>().SetTrigger("destruct");
+                    notes[inputIndex].transform.GetChild(1).gameObject.GetComponent<Animator>().SetTrigger("destruct");
                     print($"Hit on {inputIndex} note");
-                    //delay(0.3f, inputIndex);
+                    StartCoroutine(delay(0.3f, inputIndex));
                     inputIndex++;
                     flash.SetTrigger("flash");
                 }

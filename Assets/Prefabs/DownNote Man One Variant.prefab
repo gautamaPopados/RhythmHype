@@ -48,6 +48,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6226632724770539311, guid: 212ed07b7eb76e04dac9073e05ad5986, type: 3}
+      propertyPath: dotPrefab
+      value: 
+      objectReference: {fileID: 3680846107558487587, guid: 44b3c8ac3b1d4d4418d1112bc4a431b1, type: 3}
     - target: {fileID: 7120158929006552135, guid: 212ed07b7eb76e04dac9073e05ad5986, type: 3}
       propertyPath: m_Name
       value: DownNote Man One Variant

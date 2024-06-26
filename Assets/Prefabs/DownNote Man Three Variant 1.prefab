@@ -8,6 +8,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 961811805119885695, guid: 01b9c70f1c9cf0741a781e63ba0eba2c, type: 3}
+      propertyPath: yPosDot
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 961811805119885695, guid: 01b9c70f1c9cf0741a781e63ba0eba2c, type: 3}
+      propertyPath: dotPrefab
+      value: 
+      objectReference: {fileID: 3680846107558487587, guid: 44b3c8ac3b1d4d4418d1112bc4a431b1, type: 3}
     - target: {fileID: 987897536358851400, guid: 01b9c70f1c9cf0741a781e63ba0eba2c, type: 3}
       propertyPath: m_SortingOrder
       value: 2
