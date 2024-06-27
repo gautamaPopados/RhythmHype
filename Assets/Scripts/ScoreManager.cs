@@ -29,6 +29,11 @@ public class ScoreManager : MonoBehaviour
         Instance = this;
         currentScore = 0;
         currentMultiplier = 1;
+        totalHits = 0;
+        okHits = 0;
+        goodHits = 0;
+        perfectHits = 0;
+        missedHits = 0; 
         multiplierTracker = 0;
     }
     public static void Hit()
@@ -51,18 +56,22 @@ public class ScoreManager : MonoBehaviour
         currentScore += scorePerNote * currentMultiplier;
         Hit();
         okHits++;
+        totalHits++;
     }
     public static void GoodHit()
     {
         currentScore += scorePerGoodNote * currentMultiplier;
         Hit();
         goodHits++;
+        totalHits++;
     }
     public static void PerfectHit()
     {
         currentScore += scorePerPerfectNote * currentMultiplier;
         Hit();
         perfectHits++;
+        totalHits++;
+
     }
 
     public static void Miss()
@@ -76,6 +85,5 @@ public class ScoreManager : MonoBehaviour
     {
         scoreText.text = currentScore.ToString();
         multiplierText.text = "x" + currentMultiplier.ToString();
-        totalHits = okHits + goodHits + perfectHits;
     }
 }
