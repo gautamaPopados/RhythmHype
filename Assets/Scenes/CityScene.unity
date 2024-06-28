@@ -769,7 +769,7 @@ MonoBehaviour:
   marginOfError: 0.1
   player: {fileID: 1569788505}
   inputDelayInMilliseconds: 0
-  fileLocation: secondLevel.mid
+  fileLocation: secondLevel3.mid
   noteTime: 2
   noteSpawnX: -8
   noteTapX: 0
@@ -1444,7 +1444,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 1d124cd57d9d0cc47afd45578bbe9b05, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 4834f7607f191d144a7db8afca899b61, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.494
   m_Pitch: 1
