@@ -1186,7 +1186,7 @@ MonoBehaviour:
   textComponent: {fileID: 884882632}
   lines:
   - "\u041E\u043F\u044F\u0442\u044C \u0440\u0430\u0431\u043E\u0442\u0430..."
-  textSpeed: 0.1
+  textSpeed: 0.03
   songManager: {fileID: 516752367}
 --- !u!114 &730082796
 MonoBehaviour:
@@ -1559,7 +1559,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44bb98314dbbb9d4e87b25a3ab18a487, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rhythm: {fileID: 11400000, guid: e24205daf3ec95b4e91bac04256079ac, type: 2}
+  rhythm: {fileID: 11400000, guid: ece9ba92ede5b9247acdc0a3b5aa0b22, type: 2}
   processed: []
   processedLong: []
   listeners:

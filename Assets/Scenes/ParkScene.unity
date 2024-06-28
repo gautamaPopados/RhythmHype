@@ -1380,7 +1380,7 @@ MonoBehaviour:
   lines:
   - "\u0422\u0435\u043F\u0435\u0440\u044C \u043F\u043E\u0438\u0449\u0435\u043C, \u0447\u0442\u043E
     \u043C\u043E\u0436\u043D\u043E \u0441\u043D\u044F\u0442\u044C \u0442\u0443\u0442."
-  textSpeed: 0.1
+  textSpeed: 0.03
   songManager: {fileID: 516752367}
 --- !u!114 &730082796
 MonoBehaviour:
@@ -1753,7 +1753,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44bb98314dbbb9d4e87b25a3ab18a487, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rhythm: {fileID: 11400000, guid: e24205daf3ec95b4e91bac04256079ac, type: 2}
+  rhythm: {fileID: 11400000, guid: 29730f16ea2cc4a4e927d46086ce8b29, type: 2}
   processed: []
   processedLong: []
   listeners:
@@ -1773,7 +1773,6 @@ MonoBehaviour:
   logo:
   - {fileID: 1675692083}
   - {fileID: 446338023}
-  - {fileID: 1513657205}
 --- !u!1 &884882630
 GameObject:
   m_ObjectHideFlags: 0

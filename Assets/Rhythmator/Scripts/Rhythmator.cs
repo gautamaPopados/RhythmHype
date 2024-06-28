@@ -25,7 +25,7 @@ public class Rhythmator : MonoBehaviour
         if (rhythm != null) {
             rhythm.InitializeLayers();
             audioSource = GetComponent<AudioSource>();
-            //audioSource.clip = rhythm.clip;
+            audioSource.clip = rhythm.clip;
         }
     }
 

@@ -1176,7 +1176,7 @@ MonoBehaviour:
   lines:
   - "\u0421\u043D\u0430\u0447\u0430\u043B\u0430 \u043D\u0443\u0436\u043D\u044B \u0444\u043E\u0442\u043E\u0433\u0440\u0430\u0444\u0438\u0438
     \u0441\u0442\u0443\u0434\u0435\u043D\u0442\u043E\u0432."
-  textSpeed: 0.1
+  textSpeed: 0.03
   songManager: {fileID: 516752367}
 --- !u!114 &730082796
 MonoBehaviour:
@@ -1417,8 +1417,8 @@ GameObject:
   m_Component:
   - component: {fileID: 834946020}
   - component: {fileID: 834946019}
-  - component: {fileID: 834946021}
   - component: {fileID: 834946022}
+  - component: {fileID: 834946021}
   m_Layer: 0
   m_Name: AudioSource
   m_TagString: Untagged
@@ -1544,16 +1544,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 834946018}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44bb98314dbbb9d4e87b25a3ab18a487, type: 3}
+  m_Script: {fileID: 11500000, guid: 35f92157a15b8584a9caadf0dd00b9fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rhythm: {fileID: 11400000, guid: 3c3ca8b9c9944584aa672cbec2b1b31e, type: 2}
-  processed: []
-  processedLong: []
-  listeners:
-  - {fileID: 834946022}
+  logo:
+  - {fileID: 446338023}
+  - {fileID: 1675692083}
 --- !u!114 &834946022
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1561,15 +1559,16 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 834946018}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35f92157a15b8584a9caadf0dd00b9fa, type: 3}
+  m_Script: {fileID: 11500000, guid: 44bb98314dbbb9d4e87b25a3ab18a487, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  logo:
-  - {fileID: 1675692083}
-  - {fileID: 446338023}
-  - {fileID: 1253249853}
+  rhythm: {fileID: 11400000, guid: bc525e6dcb09b3044bb90fe6f875decd, type: 2}
+  processed: []
+  processedLong: []
+  listeners:
+  - {fileID: 834946021}
 --- !u!1 &884882630
 GameObject:
   m_ObjectHideFlags: 0

@@ -38,6 +38,6 @@ public class InterfaceListener : RhythmListener
 
     public override void RhythmEvent(RhythmEventData data)
     {
-        throw new System.NotImplementedException();
+        
     }
-} 
+}
