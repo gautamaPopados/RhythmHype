@@ -18,9 +18,15 @@ EditorBuildSettings:
     path: Assets/Scenes/CityScene.unity
     guid: 73155cf941838a64c88dfdb95ca3ef9c
   - enabled: 1
+    path: Assets/Scenes/GorSadScene.unity
+    guid: ffd626082ea679041a30e8a1cb5adb72
+  - enabled: 1
+    path: Assets/Scenes/ducksTemp.unity
+    guid: 447a5cf6b4d1a21468771b996b81ff67
+  - enabled: 1
     path: Assets/Scenes/ParkScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/BonusScene.unity
-    guid: 2834987953c2b4643999ebd004784bc6
+    path: Assets/Scenes/finalScene.unity
+    guid: 86b943cc201f03549be8a190573234a4
   m_configObjects: {}

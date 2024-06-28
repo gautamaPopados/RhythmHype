@@ -6,7 +6,7 @@ public class PlayerInteraction : MonoBehaviour
 {
     public GameObject InteractionMessage;
     public PlayerInteraction Instance;
-    [HideInInspector] public Interactable CurrentInteractable;
+    [HideInInspector] public IInteractable CurrentInteractable;
     // Start is called before the first frame update
     void Start()
     {

@@ -5,7 +5,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 
 
-public class Interactable : MonoBehaviour
+public class InteractableIntro : MonoBehaviour, IInteractable
 {
     public AudioSource pageSound;
     public GameObject page;
@@ -24,7 +24,7 @@ public class Interactable : MonoBehaviour
     {
     }
 
-    public void Interact()
+    public new void Interact()
     {
         pageSound.Play();
         page.SetActive(true);
@@ -32,9 +32,8 @@ public class Interactable : MonoBehaviour
         characterGfx.GetComponent<Animator>().enabled = false;
         StartCoroutine(enableDialogue());
         Debug.LogFormat("Player interacted with '{0}'", gameObject.name);
-        
-    }
 
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.TryGetComponent(out PlayerInteraction playerInteraction))

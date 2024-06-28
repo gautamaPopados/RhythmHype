@@ -1008,6 +1008,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noteRestriction: 5
   input: 273
+  altInput: 119
   notePrefab: {fileID: 1003326330560142241, guid: fe9d163ffdef9fb438978d402f7994a1, type: 3}
   aim: {fileID: 979258629}
   okEffect: {fileID: 4193592347282632023, guid: 2f9623da16abf7a49b9ee0d1b42b7b04, type: 3}
@@ -1392,6 +1393,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noteRestriction: 11
   input: 274
+  altInput: 115
   notePrefab: {fileID: 333348495581262530, guid: 9a99cef0c089bb54188ba4ede0172387, type: 3}
   aim: {fileID: 1211826194}
   okEffect: {fileID: 4193592347282632023, guid: 2f9623da16abf7a49b9ee0d1b42b7b04, type: 3}
@@ -2059,6 +2061,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noteRestriction: 9
   input: 276
+  altInput: 97
   notePrefab: {fileID: 4179227302916592151, guid: 01b9c70f1c9cf0741a781e63ba0eba2c, type: 3}
   aim: {fileID: 2001050091}
   okEffect: {fileID: 4193592347282632023, guid: 2f9623da16abf7a49b9ee0d1b42b7b04, type: 3}
@@ -3670,6 +3673,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noteRestriction: 7
   input: 275
+  altInput: 100
   notePrefab: {fileID: 1003326330560142241, guid: 38ec9df1383618440a80c0ce9641d711, type: 3}
   aim: {fileID: 203334856}
   okEffect: {fileID: 4193592347282632023, guid: 2f9623da16abf7a49b9ee0d1b42b7b04, type: 3}

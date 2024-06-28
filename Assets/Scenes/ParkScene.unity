@@ -758,7 +758,7 @@ MonoBehaviour:
   marginOfError: 0.1
   player: {fileID: 1569788505}
   inputDelayInMilliseconds: 0
-  fileLocation: thirdLevel3mid.mid
+  fileLocation: shish3.mid
   noteTime: 2
   noteSpawnX: -8
   noteTapX: 0
@@ -997,6 +997,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noteRestriction: 5
   input: 273
+  altInput: 119
   notePrefab: {fileID: 1003326330560142241, guid: fe9d163ffdef9fb438978d402f7994a1, type: 3}
   aim: {fileID: 979258629}
   okEffect: {fileID: 4193592347282632023, guid: 2f9623da16abf7a49b9ee0d1b42b7b04, type: 3}
@@ -1586,6 +1587,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noteRestriction: 11
   input: 274
+  altInput: 115
   notePrefab: {fileID: 7120158929006552135, guid: 66db4972b7238b646a48cdf450157dad, type: 3}
   aim: {fileID: 1211826194}
   okEffect: {fileID: 4193592347282632023, guid: 2f9623da16abf7a49b9ee0d1b42b7b04, type: 3}
@@ -1638,7 +1640,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d05f3fb75bd3a644bba7620d4b7ce350, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ea1a71f12dcee9545888e2a39f5ec5c8, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.494
   m_Pitch: 1
@@ -2254,6 +2256,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noteRestriction: 9
   input: 276
+  altInput: 97
   notePrefab: {fileID: 7120158929006552135, guid: 27fe7ee95c4ffe843983e4a222dc9f1f, type: 3}
   aim: {fileID: 2001050091}
   okEffect: {fileID: 4193592347282632023, guid: 2f9623da16abf7a49b9ee0d1b42b7b04, type: 3}
@@ -4019,6 +4022,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noteRestriction: 7
   input: 275
+  altInput: 100
   notePrefab: {fileID: 8722624676220467596, guid: ecdf8394f1b6b7141a6fbe7794d55c41, type: 3}
   aim: {fileID: 203334856}
   okEffect: {fileID: 4193592347282632023, guid: 2f9623da16abf7a49b9ee0d1b42b7b04, type: 3}

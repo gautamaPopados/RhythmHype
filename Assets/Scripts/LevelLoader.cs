@@ -47,10 +47,20 @@ public class LevelLoader : MonoBehaviour
     }
     public void LoadParkLevel()
     {
+        StartCoroutine(LoadLevel(6));
+        
+    }
+    public void LoadGorSadLevel()
+    {
         StartCoroutine(LoadLevel(4));
         
     }
     public void LoadBonusLevel()
+    {
+        StartCoroutine(LoadLevel(7));
+        
+    }
+    public void LoadDucksLevel()
     {
         StartCoroutine(LoadLevel(5));
         

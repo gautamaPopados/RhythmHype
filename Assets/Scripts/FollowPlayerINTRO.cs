@@ -6,7 +6,8 @@ public class FollowPlayerINTRO : MonoBehaviour
 {
     [SerializeField] public Transform Player;
     [SerializeField] public float xDiff;
-
+    public float rightBorder = 8.1f;
+    public float leftBorder = -2.2f;
     Vector3 localRotation;
     void Start()
     {
@@ -16,7 +17,7 @@ public class FollowPlayerINTRO : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Player.position.x < 8.1f && Player.position.x > -2.2f)
+        if (Player.position.x < rightBorder && Player.position.x > leftBorder)
         {
             transform.position = new Vector3(Player.position.x + xDiff, transform.position.y, transform.position.z);
         }
