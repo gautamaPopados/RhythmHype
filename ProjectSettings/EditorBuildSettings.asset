@@ -21,12 +21,18 @@ EditorBuildSettings:
     path: Assets/Scenes/GorSadScene.unity
     guid: ffd626082ea679041a30e8a1cb5adb72
   - enabled: 1
-    path: Assets/Scenes/ducksTemp.unity
-    guid: 447a5cf6b4d1a21468771b996b81ff67
+    path: Assets/Scenes/TirScene.unity
+    guid: 4dcf033022226784e987e291f3c9c0d1
   - enabled: 1
     path: Assets/Scenes/ParkScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/finalScene.unity
     guid: 86b943cc201f03549be8a190573234a4
+  - enabled: 1
+    path: Assets/Scenes/prizeScene.unity
+    guid: 6b4eb4dc3a7c4274b98bf28c712c8f81
+  - enabled: 1
+    path: Assets/Scenes/looseScene.unity
+    guid: b3ad03899adfcf54abb969c7ee80f93f
   m_configObjects: {}

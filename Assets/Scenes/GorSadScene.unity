@@ -1262,6 +1262,7 @@ MonoBehaviour:
     \u043F\u043E\u0443\u0447\u0430\u0441\u0442\u0432\u043E\u0432\u0430\u0442\u044C!"
   textSpeed: 0.05
   isFinal: 1
+  isDuck: 0
   levelLoader: {fileID: 609832479}
 --- !u!114 &521986864
 MonoBehaviour:
@@ -1332,6 +1333,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noteRestriction: 7
   input: 273
+  altInput: 0
   notePrefab: {fileID: 1003326330560142241, guid: 38ec9df1383618440a80c0ce9641d711, type: 3}
   aim: {fileID: 979258629}
   okEffect: {fileID: 4193592347282632023, guid: 2f9623da16abf7a49b9ee0d1b42b7b04, type: 3}
@@ -1557,14 +1559,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 884882632}
   lines:
-  - "\u041D\u043E\u0432\u0430\u044F \u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043D\u0435\u0434\u0435\u043B\u044F..."
-  - "\u0418 \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u044F\u044F, \u0447\u0442\u043E\u0431\u044B
-    \u0443\u0441\u043F\u0435\u0442\u044C \u043F\u043E\u0434\u0430\u0442\u044C \u0437\u0430\u044F\u0432\u043B\u0435\u043D\u0438\u0435
-    \u043D\u0430 \u043F\u043E\u0432\u044B\u0448\u043A\u0443. \u0410 \u0432\u0434\u0440\u0443\u0433
-    \u043C\u043D\u0435 \u043D\u0435 \u0445\u0432\u0430\u0442\u0438\u0442 \u0434\u043E\u0441\u0442\u0438\u0436\u0435\u043D\u0438\u0439..."
-  - "\u0427\u0442\u043E \u0442\u0430\u043C \u0432 \u043E\u0431\u044A\u044F\u0432\u043B\u0435\u043D\u0438\u044F\u0445?"
+  - "\u041E\u0439, \u0433\u043E\u0440\u0441\u0430\u0434... \u0441\u043A\u043E\u043B\u044C\u043A\u043E
+    \u0432\u043E\u0441\u043F\u043E\u043C\u0438\u043D\u0430\u043D\u0438\u0439!"
+  - "\u041D\u0430\u0434\u043E \u0441\u0440\u043E\u0447\u043D\u043E \u0432\u044B\u0438\u0433\u0440\u0430\u0442\u044C
+    \u0443\u0442\u043A\u0443..."
   textSpeed: 0.02
   isFinal: 0
+  isDuck: 0
   levelLoader: {fileID: 0}
 --- !u!114 &739202826 stripped
 MonoBehaviour:
@@ -1744,6 +1745,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noteRestriction: 9
   input: 274
+  altInput: 0
   notePrefab: {fileID: 7120158929006552135, guid: 212ed07b7eb76e04dac9073e05ad5986, type: 3}
   aim: {fileID: 1211826194}
   okEffect: {fileID: 4193592347282632023, guid: 2f9623da16abf7a49b9ee0d1b42b7b04, type: 3}
@@ -2444,11 +2446,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb4a29aacd64246429ccf0c370e3684e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pageSound: {fileID: 0}
-  page: {fileID: 0}
-  character: {fileID: 0}
-  characterGfx: {fileID: 0}
-  dialogue: {fileID: 0}
   levelLoader: {fileID: 609832479}
 --- !u!1 &1042369623
 GameObject:
@@ -2564,6 +2561,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noteRestriction: 5
   input: 276
+  altInput: 0
   notePrefab: {fileID: 7120158929006552135, guid: 27fe7ee95c4ffe843983e4a222dc9f1f, type: 3}
   aim: {fileID: 2001050091}
   okEffect: {fileID: 4193592347282632023, guid: 2f9623da16abf7a49b9ee0d1b42b7b04, type: 3}
@@ -3877,7 +3875,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   InteractionMessage: {fileID: 1668915985}
   Instance: {fileID: 0}
-  CurrentInteractable: {fileID: 0}
 --- !u!1 &1618877551
 GameObject:
   m_ObjectHideFlags: 0
@@ -4901,6 +4898,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noteRestriction: 11
   input: 275
+  altInput: 0
   notePrefab: {fileID: 8722624676220467596, guid: ecdf8394f1b6b7141a6fbe7794d55c41, type: 3}
   aim: {fileID: 203334856}
   okEffect: {fileID: 4193592347282632023, guid: 2f9623da16abf7a49b9ee0d1b42b7b04, type: 3}

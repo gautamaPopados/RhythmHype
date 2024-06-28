@@ -3171,6 +3171,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1789661357}
     m_Modifications:
+    - target: {fileID: 1465442232365638629, guid: a77d69e5af7fd43408143ef6ed05207d, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 516752370}
+    - target: {fileID: 1465442232365638629, guid: a77d69e5af7fd43408143ef6ed05207d, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeVolume
+      objectReference: {fileID: 0}
     - target: {fileID: 2376224561564105194, guid: a77d69e5af7fd43408143ef6ed05207d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 

@@ -6,6 +6,7 @@ using System.Collections.Generic;
 
 public class GameDuckController : MonoBehaviour
 {
+    public LevelLoader levelLoader;
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI timerText;
     private int score;
@@ -99,6 +100,10 @@ public class GameDuckController : MonoBehaviour
         timerText.text = "Time: 0";
         CancelInvoke("ActivateRandomDuck");
         Debug.Log("Game Over! Final Score: " + score);
+        if (score >= 80)
+            levelLoader.LoadWinLevel();
+        else 
+            levelLoader.LoadLooseLevel();
         // Здесь можно добавить логику для окончания игры, например, показать экран результатов
     }
 }

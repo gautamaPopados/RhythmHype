@@ -19,7 +19,7 @@ public class LevelLoader : MonoBehaviour
 
     public void LoadNextLevel()
     {
-        if (SceneManager.GetActiveScene().buildIndex < SceneManager.sceneCountInBuildSettings - 1)
+        if (SceneManager.GetActiveScene().buildIndex < SceneManager.sceneCountInBuildSettings - 3)
             StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
         else
             LoadMainMenu();
@@ -63,6 +63,16 @@ public class LevelLoader : MonoBehaviour
     public void LoadDucksLevel()
     {
         StartCoroutine(LoadLevel(5));
+        
+    }
+    public void LoadWinLevel()
+    {
+        StartCoroutine(LoadLevel(8));
+        
+    }
+    public void LoadLooseLevel()
+    {
+        StartCoroutine(LoadLevel(9));
         
     }
 

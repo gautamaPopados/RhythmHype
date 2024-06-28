@@ -9,6 +9,7 @@ public class DialogueINTRO : MonoBehaviour
     public string[] lines;
     public float textSpeed;
     public bool isFinal;
+    public bool isDuck;
     private int index;
     public LevelLoader levelLoader;
     // Start is called before the first frame update
@@ -67,6 +68,8 @@ public class DialogueINTRO : MonoBehaviour
         {
             if (isFinal)
                 levelLoader.LoadNextLevel();
+            else if (isDuck)
+                levelLoader.LoadParkLevel();
             gameObject.SetActive(false);
         }
     }
