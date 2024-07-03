@@ -9,6 +9,7 @@ public class GameDuckController : MonoBehaviour
     public LevelLoader levelLoader;
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI timerText;
+    public AudioSource quack;
     private int score;
     public GameObject duckPrefab;
     private List<GameObject> ducks = new List<GameObject>();
@@ -47,6 +48,7 @@ public class GameDuckController : MonoBehaviour
         if (gameActive)
         {
             score += newScoreValue;
+            quack.Play();
             UpdateScore();
         }
     }
@@ -100,7 +102,7 @@ public class GameDuckController : MonoBehaviour
         timerText.text = "Time: 0";
         CancelInvoke("ActivateRandomDuck");
         Debug.Log("Game Over! Final Score: " + score);
-        if (score >= 80)
+        if (score >= 60)
             levelLoader.LoadWinLevel();
         else 
             levelLoader.LoadLooseLevel();
